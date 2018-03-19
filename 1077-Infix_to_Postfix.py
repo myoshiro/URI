@@ -1,6 +1,5 @@
 def CheckPrior(char):
-    
-    
+        
     if (char == "+" or char == "-"):
         prior = 1
     elif (char == "*" or char == "/"):
@@ -10,6 +9,7 @@ def CheckPrior(char):
     else:
         prior = 0
     return prior
+
 
 
 def InToPost():
@@ -71,5 +71,7 @@ def InToPost():
 
   print(outputText)
   return 0
-  
+ 
+    
+    
 InToPost()
