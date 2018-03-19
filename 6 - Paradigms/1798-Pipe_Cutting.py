@@ -1,3 +1,7 @@
+"""
+1798 - Pipe Cutting by myoshiro
+"""
+
 In0 = input().split(" ")
 
 n = int(In0[0])
