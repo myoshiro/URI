@@ -1,3 +1,7 @@
+"""
+1077 - Infix to Postfix by myoshiro
+"""
+
 def CheckPrior(char):
         
     if (char == "+" or char == "-"):
