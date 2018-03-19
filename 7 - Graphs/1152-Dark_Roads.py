@@ -1,8 +1,9 @@
 """
 1152 - Dark Roads by myoshiro
 """
+
 from collections import defaultdict
- 
+
 class Graph:
  
     def __init__(self,vertices):
@@ -43,7 +44,7 @@ class Graph:
         e = 0 
  
         self.graph =  sorted(self.graph,key=lambda item: item[2])
- 
+        
         parent = [] ; rank = []
  
         for node in range(self.V):
@@ -66,6 +67,10 @@ class Graph:
             min_cost = min_cost + weight
             
 
+
+#################################################
+#       BUILDING GRAPH
+#################################################
 
 In0 = input().split(" ")
 
@@ -91,7 +96,7 @@ while In0 != ["0","0"]:
     
     min_cost = 0    
     G.myKruskal()
-    
+
     print(full_cost - min_cost)
  
     In0 = input().split(" ")
